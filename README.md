@@ -16,3 +16,11 @@ python3 iptvsmartrespro/make_featured.py "Titre exact de l'article" "Dépannage"
 - Police : Poppins ExtraBold (SIL Open Font License, voir `fonts/OFL.txt`).
 
 Ne pas modifier `background.png` sans valider le nouveau rendu avec le propriétaire du site.
+
+## francepremiumtv.fr
+
+Modèle validé le 2026-11-14 : salon clair, TV + box + smartphone à droite, ruban bleu-blanc-rouge, badge de catégorie rouge et titre bleu nuit à gauche, pied de page « francepremiumtv.fr · Guide IPTV France · 2026 ».
+
+```bash
+python3 francepremiumtv/make_featured.py "Titre exact de l'article" "Usages" /tmp/featured.webp
+```
